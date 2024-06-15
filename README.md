@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this project, I set up a mini honeynet in Azure and collected log data from various sources into a Log Analytics workspace. This workspace is utilized by Microsoft Sentinel to create attack maps, trigger alerts, and generate incidents. I recorded security metrics in the unsecured environment for 24 hours, implemented security controls to enhance the environment, measured metrics for another 24 hours, and then presented the results below. The metrics include:
+In this project, I set up a mini honeynet in Azure and collected log data from various sources into a Log Analytics workspace. Microsoft Sentinel utilizes this workspace to create attack maps, trigger alerts, and generate incidents. I recorded security metrics in the unsecured environment for 24 hours, implemented security controls to enhance the environment, measured metrics for another 24 hours, and then presented the results below. The metrics include:
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
@@ -38,7 +38,7 @@ For the "AFTER" metrics, the Network Security Groups were tightened by blocking 
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
+The table below presents the metrics measured in my insecure environment over a 24-hour period:
 
 - Start Time 2024-06-09 15:38:45
 - Stop Time 2024-06-10 15:38:45
@@ -57,7 +57,7 @@ The following table shows the metrics we measured in our insecure environment fo
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
+The table below displays the metrics measured in my environment over a 24-hour period following the implementation of security controls:
 
 - Start Time 2024-06-13 20:07:50
 - Stop Time 2024-06-14 20:07:50
@@ -72,6 +72,6 @@ The following table shows the metrics we measured in our environment for another
 
 ## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
+In this project, a mini honeynet was set up in Microsoft Azure, with log sources integrated into a Log Analytics workspace. Microsoft Sentinel was used to trigger alerts and create incidents based on the ingested logs. Metrics were recorded in the insecure environment before applying security controls and then again after implementing them. The significant reduction in security events and incidents after applying the security controls highlighted their effectiveness.
 
-It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+It is important to mention that if the resources within the network had been heavily utilized by regular users, more security events and alerts might have been generated within the 24-hour period following the implementation of the security controls.

@@ -12,7 +12,7 @@ In this project, I set up a mini honeynet in Azure and collected log data from v
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into the honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://github.com/steveabner/Cloud-SOC/assets/164390231/76328602-bd4d-4014-a00b-9429673a2efd)
+![Architecture Diagram](https://github.com/steveabner/Cloud-SOC/assets/164390231/2ad2e3bb-bda6-4e37-93ea-87a90520befb)
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://github.com/steveabner/Cloud-SOC/assets/164390231/b2b82fae-ad05-458a-9ebc-930f17e4a22b)

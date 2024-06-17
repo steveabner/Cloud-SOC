@@ -9,7 +9,7 @@ In this project, I set up a mini honeynet in Azure and collected log data from v
 - Syslog (Linux Event Logs)
 - SecurityAlert (Log Analytics Alerts Triggered)
 - SecurityIncident (Incidents created by Sentinel)
-- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
+- AzureNetworkAnalytics_CL (Malicious Flows allowed into the honeynet)
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram]()

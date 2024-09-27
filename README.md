@@ -32,9 +32,22 @@ For the "BEFORE" metrics, all resources were initially deployed and exposed to t
 For the "AFTER" metrics, the Network Security Groups were tightened by blocking all traffic except from my admin workstation, and all other resources were secured with their built-in firewalls and Private Endpoints.
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://github.com/steveabner/Cloud-SOC/assets/164390231/65a62138-0290-4d11-81ed-bfbfdf370d85)<br>
-![Linux Syslog Auth Failures](https://github.com/steveabner/Cloud-SOC/assets/164390231/e61e0ad4-4933-4f9f-bc5e-1b25aa1c9de3)<br>
-![Windows RDP/SMB Auth Failures](https://github.com/steveabner/Cloud-SOC/assets/164390231/4b10bbfd-b4fa-4187-a262-b677d17c8cb6)<br>
+
+NSG Allowed Inbound Malicious Flows
+![(before)nsg-allowed-in](https://github.com/user-attachments/assets/521f4940-9de4-468a-b4c6-d7c2a754c28b)
+
+Linux Syslog Auth Failures
+![(before)linux-ssh-auth-fail](https://github.com/user-attachments/assets/c3efbb75-95e0-4ffe-9282-067be74f97f1)
+
+Windows RDP/SMB Auth Failures
+![(before)windows-rdp-auth-fail](https://github.com/user-attachments/assets/6fb158c9-17ed-4ecd-8bb9-b05b76df1734)
+
+MSSQL Auth Failures
+![(before)mssql-auth-fail](https://github.com/user-attachments/assets/26210ced-3fe1-4671-a6cd-8bca3046b6be)
+
+<!-- ![NSG Allowed Inbound Malicious Flows](https://github.com/steveabner/Cloud-SOC/assets/164390231/65a62138-0290-4d11-81ed-bfbfdf370d85)<br> -->
+<!-- ![Linux Syslog Auth Failures](https://github.com/steveabner/Cloud-SOC/assets/164390231/e61e0ad4-4933-4f9f-bc5e-1b25aa1c9de3)<br> -->
+<!-- ![Windows RDP/SMB Auth Failures](https://github.com/steveabner/Cloud-SOC/assets/164390231/4b10bbfd-b4fa-4187-a262-b677d17c8cb6)<br> -->
 
 ## Metrics Before Hardening / Security Controls
 

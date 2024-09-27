@@ -53,16 +53,16 @@ MSSQL Auth Failures
 
 The table below presents the metrics measured in my insecure environment over a 24-hour period:
 
-- Start Time 2024-06-09 15:38:45
-- Stop Time 2024-06-10 15:38:45
+- Start Time 9/23/2024, 1:35:14 PM
+- Stop Time 9/24/2024, 1:35:14.55 PM
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19610
-| Syslog                   | 7154
-| SecurityAlert            | 1
-| SecurityIncident         | 145
-| AzureNetworkAnalytics_CL | 103
+| SecurityEvent            | 82091
+| Syslog                   | 22019
+| SecurityAlert            | 10
+| SecurityIncident         | 282
+| NSG Malicious Flows      | 3553
 
 ## Attack Maps After Hardening / Security Controls
 
@@ -72,16 +72,16 @@ The table below presents the metrics measured in my insecure environment over a 
 
 The table below displays the metrics measured in my environment over a 24-hour period following the implementation of security controls:
 
-- Start Time 2024-06-13 20:07:50
-- Stop Time 2024-06-14 20:07:50
+- Start Time 9/25/2024, 9:57:59.87 AM
+- Stop Time 9/26/2024, 9:57:59.87 AM
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8767
-| Syslog                   | 6
+| SecurityEvent            | 2798
+| Syslog                   | 0
 | SecurityAlert            | 0
 | SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| NSG Malicious Flows      | 0
 
 ## Conclusion
 

@@ -53,8 +53,8 @@ MSSQL Auth Failures
 
 The table below presents the metrics measured in my insecure environment over a 24-hour period:
 
-- Start Time 9/23/2024, 1:35:14 PM
-- Stop Time 9/24/2024, 1:35:14.55 PM
+- Start Time 9/23/2024, 1:35PM
+- Stop Time 9/24/2024, 1:35PM
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -72,8 +72,8 @@ The table below presents the metrics measured in my insecure environment over a 
 
 The table below displays the metrics measured in my environment over a 24-hour period following the implementation of security controls:
 
-- Start Time 9/25/2024, 9:57:59.87 AM
-- Stop Time 9/26/2024, 9:57:59.87 AM
+- Start Time 9/25/2024, 9:57AM
+- Stop Time 9/26/2024, 9:57AM
 
 | Metric                   | Count
 | ------------------------ | -----

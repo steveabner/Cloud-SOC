@@ -62,7 +62,7 @@ The table below presents the metrics measured in my insecure environment over a 
 | Syslog                   | 22019
 | SecurityAlert            | 10
 | SecurityIncident         | 282
-| NSG Malicious Flows      | 3553
+| AzureNetworkAnalytics_CL | 3553
 
 ## Attack Maps After Hardening / Security Controls
 
@@ -81,7 +81,7 @@ The table below displays the metrics measured in my environment over a 24-hour p
 | Syslog                   | 0
 | SecurityAlert            | 0
 | SecurityIncident         | 0
-| NSG Malicious Flows      | 0
+| AzureNetworkAnalytics_CL | 0
 
 ## Conclusion
 

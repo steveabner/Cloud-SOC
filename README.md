@@ -86,13 +86,13 @@ The table below displays the metrics measured in my environment over a 24-hour p
 
 ## Overall Results
 
-| Metric                                       | Change post-hardening
+| Metric                                       | Change After Hardening
 | -------------------------------------------- | -----
-| SecurityEvent (Windows VMs)                  | -96.59%
-| Syslog (Linux VMs)                           | -100%
-| SecurityAlert (Microsoft Defender for Cloud) | -100%
-| SecurityIncident (Sentinel Incidents)        | -100%
-| AzureNetworkAnalytics_CL                     | -100%
+| SecurityEvent (Windows VMs)                  | 96.59%
+| Syslog (Linux VMs)                           | 100%
+| SecurityAlert (Microsoft Defender for Cloud) | 100%
+| SecurityIncident (Sentinel Incidents)        | 100%
+| AzureNetworkAnalytics_CL                     | 100%
 
 ## Conclusion
 

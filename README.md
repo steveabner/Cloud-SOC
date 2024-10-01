@@ -15,10 +15,6 @@ In this project, I set up a mini honeynet in Azure and collected log data from v
 ## Architecture Before Hardening / Security Controls
 ![Completed Before Hardening](https://github.com/user-attachments/assets/6b38b28c-e97b-4ebb-99c8-f14892272a04)
 
-## Architecture After Hardening / Security Controls
-![Honeynet After Hardening](https://github.com/user-attachments/assets/78ff760f-7f42-42a7-b18b-55ab8a3b03f7)
-
-
 The mini honeynet architecture in Azure comprises the following components:
 
 - Virtual Network (VNet)
@@ -65,6 +61,9 @@ The table below presents the metrics measured in my insecure environment over a 
 | SecurityAlert            | 10
 | SecurityIncident         | 282
 | AzureNetworkAnalytics_CL | 3553
+
+## Architecture After Hardening / Security Controls
+![Honeynet After Hardening](https://github.com/user-attachments/assets/78ff760f-7f42-42a7-b18b-55ab8a3b03f7)
 
 ## Attack Maps After Hardening / Security Controls
 

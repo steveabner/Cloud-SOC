@@ -49,7 +49,7 @@ MSSQL Auth Failures
 
 ## Metrics Before Hardening / Security Controls
 
-The table below presents the metrics measured in my insecure environment over a 24-hour period:
+The table below displays the metrics collected from my insecure environment over a 24-hour period:
 
 - Start Time 9/23/2024, 1:35PM
 - Stop Time 9/24/2024, 1:35PM
